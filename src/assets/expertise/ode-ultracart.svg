@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 90 90">
+  <title>ultracart-glyph</title>
+  <g>
+    <circle cx="45" cy="45" r="45" fill="#61b6e6"/>
+    <path d="M58.85,22.42l-2.78,4.53a21.14,21.14,0,1,1-22.34-.09l-2.79-4.5a26.44,26.44,0,1,0,27.91.07Z" fill="#fff" fill-rule="evenodd"/>
+    <path d="M51.91,49.52a8.459,8.459,0,1,1,.1-9.15l4.15-2.57a13.31,13.31,0,1,0,0,14.34Z" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>
