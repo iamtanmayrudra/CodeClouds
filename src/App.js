@@ -9,7 +9,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <>
-       <Header title="Template 1"></Header>
+      <Header title="Template 1"></Header>
+      
     </>
   );
 }
