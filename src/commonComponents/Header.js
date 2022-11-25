@@ -1,18 +1,30 @@
-import React from 'react';
+import React, { useState } from "react";
 
 import Navigation from '../basicComponents/Navigation';
 import Logo from "../basicComponents/Logo";
 
 // Bootstrap Module
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 
 // Css
-import './commonStyle/Header.css'
+import './commonStyle/Header.css';
 
 
 export default function Header() {
 
   // const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
+  const[text, setText] = useState("Where is my typo");
+  // setText("All are added");
+
+  const handelerClick = ()=>{
+    console.log('text');
+    setText("Succesfully Proceed");
+  }
+
+  const textHandler = () => {
+
+  };
+ 
 
   return (
     <div className="header">
@@ -26,6 +38,14 @@ export default function Header() {
           </Col>
         </Row>
       </Container>
+
+      <div className="mega-text">
+        <Container>
+          <h1>Heading - {text}</h1>
+          <textarea className="form-control" onChange={textHandler} value={text}></textarea>
+          <Button className="btn my-3" onClick={handelerClick}>Click</Button>
+        </Container>
+      </div>
     </div>
   );
 }
