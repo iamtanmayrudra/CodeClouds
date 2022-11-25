@@ -3,7 +3,10 @@ import React from 'react';
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import MaterialIcon from 'react-google-material-icons';
+import "@fontsource/roboto-slab";
+
+// import '../../node_modules/@ibm/scss/ibm-plex.scss';
 
 
 function Navigation() {
@@ -50,7 +53,7 @@ function Navigation() {
         </Nav.Item>
         <Nav.Item>
           <Nav.Link>
-            <FontAwesomeIcon icon="fa-light fa-ellipsis-vertical" />
+            <MaterialIcon icon="sort" size={36}/>
           </Nav.Link>
         </Nav.Item>
       </Nav>
