@@ -1,3 +1,6 @@
-body{
-    background: #000;
+:root{
+    font-size: 16px;
 }
+
+// Import Css
+@import url(./commonComponents/commonStyle/Header.scss);

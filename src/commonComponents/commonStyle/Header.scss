@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+// Common Componets
+$white: #fff;
+$base_color:#0E92D4;
+$rub: 'Rubik', sans-serif;
+
+.header{
+    background: $base_color;
+    .top_nav{
+        .nav-item{
+            .nav-link{
+                color: $white;
+                text-size-adjust: 100%;
+                font:400 $rub;
+                &:after{
+                    position: absolute;
+                    font-family: 'Material Icons';
+                    content: "\e5cf";
+                    border: 0;
+                }
+            }
+            &:last-child{
+                .nav-link, .dropdown-toggle{
+                    &:after{
+                        position: inherit;
+                        font-family: inherit;
+                        content: "";
+                        border: 0;
+                    }
+                }
+            }
+            
+        }
+    }
+}

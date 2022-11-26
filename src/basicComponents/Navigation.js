@@ -6,12 +6,12 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import MaterialIcon from 'react-google-material-icons';
 import "@fontsource/roboto-slab";
 
-// import '../../node_modules/@ibm/scss/ibm-plex.scss';
+
 
 
 function Navigation() {
   return (
-    <div>
+    <div className='top_nav'>
       <Nav variant="pills" activeKey="1" className="d-flex justify-content-end">
         <NavDropdown title="Products" id="nav-dropdown">
           <NavDropdown.Item eventKey="1.1">Action</NavDropdown.Item>
@@ -53,7 +53,7 @@ function Navigation() {
         </Nav.Item>
         <Nav.Item>
           <Nav.Link>
-            <MaterialIcon icon="sort" size={36}/>
+            <MaterialIcon icon="sort" size={24}/>
           </Nav.Link>
         </Nav.Item>
       </Nav>
