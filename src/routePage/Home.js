@@ -3,11 +3,12 @@ import React from 'react'
 import Header from '../commonComponents/Header';
 import Banner from '../commonComponents/Banner';
 
-function Home() {
+function Home(props) {
+
   return (
     <>
         <Header></Header>
-        <Banner></Banner>
+        <Banner title_banner="Get World-Class Web Development From India"></Banner>
     </>
   )
 }

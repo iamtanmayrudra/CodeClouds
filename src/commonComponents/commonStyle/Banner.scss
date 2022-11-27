@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// Common Componets
+$white: #fff;
+$base_color:#0E92D4;
+$rs: 'Roboto Slab', serif;;
+
+.home_banner{
+    background: $base_color;
+    .banner_left_area{
+        color: $white;
+        h1{
+            font: 400 54px $rs;
+            display: flex;
+            align-items: center;
+        }
+        button{
+            color: $base_color;
+            display: flex;
+            align-items: center;
+            font-size: 17px;
+            border-radius: 100px;
+            padding: 13px 27px;
+            font-weight: 500;
+            i{
+                margin-left: 10px;
+            }
+        }
+    }
+    .banner_video{
+        position: relative;
+        margin-left: 50px;
+        a{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        img{
+            border-radius: 10px;
+            border: 6px solid #fff;
+        }
+        img:not(img.plays){
+            border: 0px;
+        }
+    }
+}

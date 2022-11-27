@@ -20,7 +20,7 @@ $rub: 'Rubik', sans-serif;
             .nav-link{
                 color: $white;
                 text-size-adjust: 100%;
-                font:400 $rub;
+                font:400 16px $rub;
                 &:after{
                     position: absolute;
                     font-family: 'Material Icons';
@@ -38,7 +38,16 @@ $rub: 'Rubik', sans-serif;
                     }
                 }
             }
-            
+        }
+        .nav-item:not(.nav-item.dropdown){
+            .nav-link{
+                &:after{
+                    position: inherit;
+                    font-family: inherit;
+                    content: "";
+                    border: 0;
+                }
+            }
         }
     }
 }
