@@ -34,7 +34,7 @@ function Banner(props) {
           <Col lg={5} className="banner_left_area">
             <h1>{props.title_banner}</h1>
             <p className='my-4'>We’ve been delivering extraordinary {eCom}, {webD}, {mobApp}, {crmDev}, and {crDesign} services for over 13 years!</p>
-            <a className='btn'>Get a Free Quote <MaterialIcon icon="arrow_forward" size={22}/></a>
+            <a href='/' className='btn'>Get a Free Quote <MaterialIcon icon="arrow_forward" size={22}/></a>
             <ul className='banner_certificates d-flex'>
               <li><img src={subta} width="85" alt={subta} /></li>
               <li><img src={glassdoor}  width="85"alt={glassdoor} /></li>

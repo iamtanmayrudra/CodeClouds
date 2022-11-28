@@ -3,7 +3,7 @@
 
 // Import Css
 @import url(./commonComponents/commonStyle/Header.scss);
-@import url(./commonComponents/commonStyle/Header.scss);
+@import url(./commonComponents/commonStyle/Banner.scss);
 @import url(./commonComponents/commonStyle/Services.scss);
 
 :root{
@@ -11,4 +11,7 @@
 }
 ul, li{
     list-style: none;
+}
+p{
+    font-size: 18px;
 }
