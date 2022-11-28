@@ -1,7 +1,7 @@
-import './App.css';
+import './App.scss';
 
 // Common Layout
-import Header from "./commonComponents/Header";
+import Home from "./routePage/Home";
 
 // Bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -9,8 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <>
-      <Header title="Template 1"></Header>
-      
+      <Home></Home>
     </>
   );
 }

@@ -3,12 +3,15 @@ import React from 'react';
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import MaterialIcon from 'react-google-material-icons';
+import "@fontsource/roboto-slab";
+
+
 
 
 function Navigation() {
   return (
-    <div>
+    <div className='top_nav'>
       <Nav variant="pills" activeKey="1" className="d-flex justify-content-end">
         <NavDropdown title="Products" id="nav-dropdown">
           <NavDropdown.Item eventKey="1.1">Action</NavDropdown.Item>
@@ -50,7 +53,7 @@ function Navigation() {
         </Nav.Item>
         <Nav.Item>
           <Nav.Link>
-            <FontAwesomeIcon icon="fa-light fa-ellipsis-vertical" />
+            <MaterialIcon icon="sort" size={24}/>
           </Nav.Link>
         </Nav.Item>
       </Nav>
