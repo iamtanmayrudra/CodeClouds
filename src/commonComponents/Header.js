@@ -21,9 +21,13 @@ export default function Header() {
     setText("Succesfully Proceed");
   }
 
-  const textHandler = () => {
+  const textHandler = () => {};
 
-  };
+  class Welcome extends React.Component {
+    render() {
+      return <h1>Hello, {this.props.name}</h1>;
+    }
+  }
  
 
   return (
