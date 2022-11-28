@@ -1,11 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
+// Common Componets
+$rs: 'Roboto Slab', serif;
+$rub: 'Rubik', sans-serif;
+$white: #fff;
+$base_color: #0E92D4;
+
 
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
 }
 
 // Common Componets
@@ -15,6 +20,10 @@ $rub: 'Rubik', sans-serif;
 
 .header{
     background: $base_color;
+    padding: 10px 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
     .top_nav{
         .nav-item{
             .nav-link{

@@ -1,6 +1,14 @@
-:root{
-    font-size: 16px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
 
 // Import Css
 @import url(./commonComponents/commonStyle/Header.scss);
+@import url(./commonComponents/commonStyle/Header.scss);
+@import url(./commonComponents/commonStyle/Services.scss);
+
+:root{
+    font-size: 16px;
+}
+ul, li{
+    list-style: none;
+}

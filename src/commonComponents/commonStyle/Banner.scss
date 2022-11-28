@@ -3,10 +3,13 @@
 // Common Componets
 $white: #fff;
 $base_color:#0E92D4;
-$rs: 'Roboto Slab', serif;;
+$rs: 'Roboto Slab', serif;
+$dark: #000;
 
 .home_banner{
     background: $base_color;
+    padding: 100px 0;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
     .banner_left_area{
         color: $white;
         h1{
@@ -14,31 +17,59 @@ $rs: 'Roboto Slab', serif;;
             display: flex;
             align-items: center;
         }
-        button{
+        a{
             color: $base_color;
-            display: flex;
+            display: inline-flex;
             align-items: center;
             font-size: 17px;
             border-radius: 100px;
             padding: 13px 27px;
             font-weight: 500;
+            background: $white;
+            border: 2px solid $white;            
+            &:hover{
+                background: transparent;
+                color: $white;
+            }
             i{
                 margin-left: 10px;
+            }
+        }
+        p{
+            font-size: 18px;
+            margin: 30px 0 50px;
+        }
+        .banner_certificates{
+            padding: 0;
+            margin-top: 70px;
+            li{
+                & + li{
+                    margin-left: 30px;
+                }
             }
         }
     }
     .banner_video{
         position: relative;
         margin-left: 50px;
+        overflow: hidden;
+        border-radius: 10px;
+        border: 6px solid #fff;
         a{
             position: absolute;
             left: 50%;
             top: 50%;
             transform: translate(-50%, -50%);
-        }
-        img{
-            border-radius: 10px;
-            border: 6px solid #fff;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            display: flex;
+            background: rgba(0, 0, 0, 0.219);
+            &:hover{
+                img{
+                    opacity: 0.8;
+                }
+            }
         }
         img:not(img.plays){
             border: 0px;
