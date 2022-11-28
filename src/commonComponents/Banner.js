@@ -20,7 +20,7 @@ function Banner(props) {
   const webD = useState("Web Development");
   const mobApp = useState("Mobile App Development");
   const crmDev = useState("CRM Development");
-  const crDesign = useState("Creative Design");
+  const crDesign = useState("Creative Design"); 
 
   return (
     <div className='home_banner'>
