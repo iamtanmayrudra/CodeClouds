@@ -1,7 +1,7 @@
 import React from "react";
 
 import Navigation from '../basicComponents/Navigation';
-import Logo from "../basicComponents/Logo";
+// import Logo from "../basicComponents/Logo";
 
 // Bootstrap Module
 import { Container, Row, Col } from "react-bootstrap";

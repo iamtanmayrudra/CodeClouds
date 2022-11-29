@@ -3,6 +3,7 @@ import React from 'react'
 import Header from '../commonComponents/Header';
 import Banner from '../commonComponents/Banner';
 import DevServices from "../commonComponents/DevServices";
+import OutSource from "../commonComponents/OutSource";
 
 function Home(props) {
 
@@ -11,6 +12,7 @@ function Home(props) {
       <Header></Header>
       <Banner title_banner="Get World-Class Web Development From India"></Banner>
       <DevServices services_heading="Top-Tier Development Services"></DevServices>
+      <OutSource source_heading="Outsource Development to the Best"></OutSource>
     </>
   );
 }

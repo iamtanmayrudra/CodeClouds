@@ -1,0 +1,31 @@
+// Common Componets
+$rs: 'Roboto Slab', serif;
+$rub: 'Rubik', sans-serif;
+$white: #fff;
+$base_color: #0E92D4;
+$dark_color: #252525;
+
+.source_content{
+    h2{
+        font: 40px  1.4 400;
+        font-family: $rs;
+        color: #014e72;
+        margin-bottom: 50px;
+    }
+    .moon_imagew{
+        img{
+            max-width: 100%;
+        }
+    }
+    .sourche_box{
+        h3{
+            font-size: 18px;
+            margin-bottom: 15px;
+            font-weight: 500;
+            color: $dark_color;
+        }
+        + .sourche_box{
+            margin-top: 40px;
+        }
+    }
+}
