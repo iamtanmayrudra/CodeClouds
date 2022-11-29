@@ -32,6 +32,9 @@ $rub: 'Rubik', sans-serif;
                     }
                 }
             }
+            + .nav-item{
+                margin-left: 10px;
+            }
         }
         .nav-item:not(.nav-item.dropdown){
             .nav-link{

@@ -15,10 +15,10 @@ export default function Header() {
     <div className="header">
       <Container fluid>
         <Row className="align-items-center justify-content-between">
-          <Col lg={4}>
+          {/* <Col lg={4}>
             <Logo></Logo>
-          </Col>
-          <Col lg={8}>
+          </Col> */}
+          <Col lg={12}>
             <Navigation></Navigation>
           </Col>
         </Row>
