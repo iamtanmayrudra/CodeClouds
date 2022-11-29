@@ -20,4 +20,22 @@ $base_color: #0E92D4;
             color: $base_color;
         }
     }
+    .cardServiceBox{
+        margin-top: 60px;
+        .card{
+            margin: 15px 0;
+            border: 2px solid #f0f2f8;
+            .card-text{
+                max-width: 68%;
+                margin:15px auto 0;
+                a{
+                    color: #6b7280;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 1.5;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
 }

@@ -53,7 +53,79 @@ function DevServices(props) {
                                     <Card>
                                         <Card.Body className="text-center">
                                             <img src={custWeb} alt={custWeb} width={58} height={50} />
-                                            <Card.Text>Custom Web Development</Card.Text>
+                                            <Card.Text>
+                                                <a href="/">Custom Web Development</a>
+                                            </Card.Text>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                                <Col lg={3}>
+                                    <Card>
+                                        <Card.Body className="text-center">
+                                            <img src={ecomStore} alt={ecomStore} width={58} height={50} />
+                                            <Card.Text>
+                                                <a href="/">Ecommerce Store Development</a>
+                                            </Card.Text>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                                <Col lg={3}>
+                                    <Card>
+                                        <Card.Body className="text-center">
+                                            <img src={funnel} alt={funnel} width={58} height={50} />
+                                            <Card.Text>
+                                                <a href="/">Landing Page Design & Development</a>
+                                            </Card.Text>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                                <Col lg={3}>
+                                    <Card>
+                                        <Card.Body className="text-center">
+                                            <img src={mobileApp} alt={mobileApp} width={58} height={50} />
+                                            <Card.Text>
+                                                <a href="/">Mobile App Development</a>
+                                            </Card.Text>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                                <Col lg={3}>
+                                    <Card>
+                                        <Card.Body className="text-center">
+                                            <img src={cDesign} alt={cDesign} width={58} height={50} />
+                                            <Card.Text>
+                                                <a href="/">Creative Design Services</a>
+                                            </Card.Text>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                                <Col lg={3}>
+                                    <Card>
+                                        <Card.Body className="text-center">
+                                            <img src={crmCon} alt={crmCon} width={58} height={50} />
+                                            <Card.Text>
+                                                <a href="/">CRM Consulting &amp; Development</a>
+                                            </Card.Text>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                                <Col lg={3}>
+                                    <Card>
+                                        <Card.Body className="text-center">
+                                            <img src={frontBack} alt={frontBack} width={58} height={50} />
+                                            <Card.Text>
+                                                <a href="/">Front & Back-End Development</a>
+                                            </Card.Text>
+                                        </Card.Body>
+                                    </Card>
+                                </Col>
+                                <Col lg={3}>
+                                    <Card>
+                                        <Card.Body className="text-center">
+                                            <img src={payGate} alt={payGate} width={58} height={50} />
+                                            <Card.Text>
+                                                <a href="/">CMS Development Services</a>
+                                            </Card.Text>
                                         </Card.Body>
                                     </Card>
                                 </Col>
