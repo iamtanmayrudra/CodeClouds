@@ -18,7 +18,7 @@ function Navigation() {
           <Logo></Logo>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav" className=' justify-content-end'>
+        <Navbar.Collapse id="responsive-navbar-nav" className='justify-content-end'>
           <Nav className="">
             <NavDropdown title="Products" id="nav-dropdown">
               <NavDropdown.Item eventKey="1.1">Action</NavDropdown.Item>
