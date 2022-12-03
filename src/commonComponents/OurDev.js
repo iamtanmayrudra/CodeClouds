@@ -10,6 +10,16 @@ import "./commonStyle/OurDev.scss";
 import MaterialIcon from 'react-google-material-icons';
 
 function OurDev(props) {
+
+// const plusList = [
+//   { id: 1, text: "No Hidden Fees" },
+//   { id: 2, text: "Shared Development" },
+//   { id: 3, text: "Managed Monthly Plan" },
+//   { id: 4, text: "80 hrs/month (4 hrs/weekday) vailable: 2AM-10AM EST" },
+//   { id: 5, text: "Emergency Support 18/5" },
+//   { id: 6, text: "Upgrade or Cancel Anytime" }
+// ]
+
   return (
     <div className="our_dev_area">
       <Container>

@@ -15,4 +15,6 @@ $dark_color: #252525;
 
 .our_dev_area{
     background: $base_color;
+    padding: 120px 0;
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
 }
