@@ -15,6 +15,22 @@ $dark_color: #252525;
 
 .our_dev_area{
     background: $base_color;
-    padding: 120px 0;
     clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+    padding: 150px 0;
+    .dev_title{
+      margin-bottom: 50px;
+      h1{
+        font-size: 40px;
+        font-family: $rs;
+        line-height: 1.4;
+        font-weight: 400;
+        margin: 0 0 30px;
+      }
+    }
+    .plan_box{
+      background: $white;
+      padding: 40px 25px;
+      height: 100%;
+      border-radius: 8px;
+    }
 }
