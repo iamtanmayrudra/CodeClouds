@@ -15,8 +15,8 @@ function Hire(props) {
       <Container>
         <Row>
             <Col lg={6}>
-                <div className="hire_describe">
-                    <h2>{props.hire_title}</h2>.
+                <div className="block_heading">
+                    <h2>{props.hire_title}</h2>
                     <p>CodeClouds’ tailored development and consulting services are fully equipped with the knowledge and experience to help you build your business for success. With over a decade of technical expertise in a wide range of web technologies, you can be confident in our ability to deliver premium solutions with affordability in mind.</p>
 
                     <p className='mt-3'>Don’t waste time sifting through dozens of other development companies — use our quick free quote tool to discover how affordable your project can be with CodeClouds!</p>
@@ -49,7 +49,7 @@ function Hire(props) {
                 </Row>
             </Col>
             <Col lg={6}>
-                <div className="cc_team_pic pl-4">
+                <div className="cc_team_pic">
                     <img src={cc_team} alt={cc_team} />
                 </div>
             </Col>

@@ -5,7 +5,35 @@ $white: #fff;
 $dark_font: #3e434d;
 $base_color: #0E92D4;
 $dark_color: #252525;
+$sky_heading: #00c0ff;
 
 .hire_block{
-    
+    padding: 100px 0;
+    .hire_describe{
+        h2{
+            font-family: $rs;
+            color: #014e72;
+            font-size: 40px;
+            margin-bottom: 35px;
+        }
+        p{
+            font-size: 17px;
+        }
+    }
+    .counter_box{
+        margin: 20px 0;
+        h2{
+            color: $sky_heading;
+            font-size: 40px;
+            font-weight: 700;
+            margin: 0 0 15px;
+        }
+        h3{
+            font-size: 18px;
+            color: $dark_color;
+        }
+    }
+    .cc_team_pic{
+        padding: 0 40px;
+    }
 }

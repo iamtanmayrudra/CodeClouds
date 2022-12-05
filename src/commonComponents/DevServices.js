@@ -35,7 +35,7 @@ function DevServices(props) {
             <Container>
                 <Row className="align-items-center">
                     <Col lg={9}>
-                        <div className="top_dev">
+                        <div className="top_dev block_heading">
                             <h1>{props.services_heading}</h1>
                             <p>At CodeClouds, we deliver high-quality and efficient web solutions for all kinds of businesses. Whether you need an expert for {webD}, {mobApp}, {eCom} or {crDesign}; we have a team of professionals who handle your project with outstanding dedication and professionalism.</p>
                             <p>With over 13 years of development and technology consulting experience under our belt, don’t miss the opportunity to find <a href="/" className="d-inline-flex align-items-center">a perfect solution for your project <MaterialIcon icon="trending_flat" /></a></p>

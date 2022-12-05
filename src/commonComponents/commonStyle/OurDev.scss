@@ -20,13 +20,6 @@ $dark_color: #252525;
     padding: 150px 0;
     .dev_title{
       margin-bottom: 50px;
-      h1{
-        font-size: 40px;
-        font-family: $rs;
-        line-height: 1.4;
-        font-weight: 400;
-        margin: 0 0 30px;
-      }
     }
     .plan_box{
       background: $white;
@@ -58,11 +51,14 @@ $dark_color: #252525;
         li{
           i{
             margin-right: 10px;
+            border: 2px solid $base_color;
+            
           }
           display: flex;
           justify-content: flex-start;
           color: $base_color;
           font-size: 18px;
+          align-items: flex-start;
           // flex-wrap: wrap;
           + li{
             margin-top: 25px;
@@ -78,6 +74,7 @@ $dark_color: #252525;
         margin: auto;
         display: table;
         border-radius: 22px;
+        font-weight: 500;
         &:hover{
           background: #014e72;
           color: $white;

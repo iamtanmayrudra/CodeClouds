@@ -1,0 +1,42 @@
+// Common Componets
+$rs: 'Roboto Slab', serif;
+$rub: 'Rubik', sans-serif;
+$white: #fff;
+$base_color: #0E92D4;
+
+.tech_body{
+    background: #F7F9FE;
+    padding: 200px 0;
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+    .skillCard{
+        h3{
+            color: $base_color;
+            font-size: 18px;
+            text-align: center;
+            margin: 0 0 25px;
+        }
+        .card{
+            margin: 15px 0;
+            border: 0px;
+            padding: 0;
+            .card-body{
+                padding: 0;
+                a{
+                    display: flex;
+                    align-items: center;
+                    text-decoration: none;
+                    padding: 20px;
+                    img{
+                        width: 32px;
+                        margin-right: 15px;
+                    }
+                    p{
+                        font-size: 17px;
+                        color: #3e434d;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}
