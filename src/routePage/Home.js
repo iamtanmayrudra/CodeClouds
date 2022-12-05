@@ -5,6 +5,7 @@ import Banner from '../commonComponents/Banner';
 import DevServices from "../commonComponents/DevServices";
 import OutSource from "../commonComponents/OutSource";
 import OurDev from "../commonComponents/OurDev";
+import Hire from '../commonComponents/Hire';
 
 function Home(props) {
 
@@ -15,6 +16,7 @@ function Home(props) {
       <DevServices services_heading="Top-Tier Development Services"></DevServices>
       <OutSource source_heading="Outsource Development to the Best"></OutSource>
       <OurDev dev_title="Our Development Plans"></OurDev>
+      <Hire hire_title="Why Hire From CodeClouds"></Hire>
     </>
   );
 }

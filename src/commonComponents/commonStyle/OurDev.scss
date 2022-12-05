@@ -2,6 +2,7 @@
 $rs: 'Roboto Slab', serif;
 $rub: 'Rubik', sans-serif;
 $white: #fff;
+$dark_font: #3e434d;
 $base_color: #0E92D4;
 $dark_color: #252525;
 
@@ -32,5 +33,55 @@ $dark_color: #252525;
       padding: 40px 25px;
       height: 100%;
       border-radius: 8px;
+      .plan_box_header{
+        text-align: center;
+        h2{
+          font-size: 22px;
+          font-weight: 600;
+          color: #1f4c6d;
+          margin: 0 0 10px;
+        }
+        h3{
+          color: #6b7280;
+          font-style: italic;
+          font-size: 16px;
+          font-weight: 400;
+        }
+        p{
+          color: $dark_font;
+          line-height: 1.4;
+          font-size: 18px;
+          margin-bottom: 30px;
+        }
+      }
+      ul{
+        li{
+          i{
+            margin-right: 10px;
+          }
+          display: flex;
+          justify-content: flex-start;
+          color: $base_color;
+          font-size: 18px;
+          // flex-wrap: wrap;
+          + li{
+            margin-top: 25px;
+          }
+        }
+      }
+      .btn_started{
+        padding: 8px 25px;
+        border: 2px solid #014e72;
+        font-size: 16px;
+        background: transparent;
+        color: $dark_color;
+        margin: auto;
+        display: table;
+        border-radius: 22px;
+        &:hover{
+          background: #014e72;
+          color: $white;
+        }
+      }
     }
 }

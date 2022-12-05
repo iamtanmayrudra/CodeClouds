@@ -1,7 +1,7 @@
 import React from 'react'
 
 // Bootstrap Module
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 
 // Css
 import "./commonStyle/OurDev.scss";
@@ -10,15 +10,6 @@ import "./commonStyle/OurDev.scss";
 import MaterialIcon from 'react-google-material-icons';
 
 function OurDev(props) {
-
-// const plusList = [
-//   { id: 1, text: "No Hidden Fees" },
-//   { id: 2, text: "Shared Development" },
-//   { id: 3, text: "Managed Monthly Plan" },
-//   { id: 4, text: "80 hrs/month (4 hrs/weekday) vailable: 2AM-10AM EST" },
-//   { id: 5, text: "Emergency Support 18/5" },
-//   { id: 6, text: "Upgrade or Cancel Anytime" }
-// ]
 
   return (
     <div className="our_dev_area">
@@ -50,30 +41,31 @@ function OurDev(props) {
                   </div>
                   <ul>
                     <li>
-                      <MaterialIcon icon="check_box" size={20} /> No Hidden Fees
+                      <MaterialIcon icon="check_box" /> No Hidden Fees
                     </li>
                     <li>
-                      <MaterialIcon icon="check_box" size={20} /> Shared
+                      <MaterialIcon icon="check_box" /> Shared
                       Development
                     </li>
                     <li>
-                      <MaterialIcon icon="check_box" size={20} /> Managed
+                      <MaterialIcon icon="check_box" /> Managed
                       Monthly Plan
                     </li>
                     <li>
-                      <MaterialIcon icon="check_box" size={20} /> 80 hrs/month
-                      (4 hrs/weekday){" "}
-                      <span className="d-block">Available: 2AM-10AM EST</span>
+                      <MaterialIcon icon="check_box" /> <span>80 hrs/month
+                      (4 hrs/weekday)
+                      Available: 2AM-10AM EST</span>
                     </li>
                     <li>
-                      <MaterialIcon icon="check_box" size={20} /> Emergency
+                      <MaterialIcon icon="check_box" /> Emergency
                       Support 18/5
                     </li>
                     <li>
-                      <MaterialIcon icon="check_box" size={20} /> Upgrade or
+                      <MaterialIcon icon="check_box" /> Upgrade or
                       Cancel Anytime
                     </li>
                   </ul>
+                  <Button as="input" type="button" value="Get Started" className='btn_started' />
                 </div>
               </Col>
               <Col lg={4}>
@@ -90,30 +82,30 @@ function OurDev(props) {
                   </div>
                   <ul>
                     <li>
-                      <MaterialIcon icon="check_box" size={20} /> No Hidden Fees
+                      <MaterialIcon icon="check_box" /> No Hidden Fees
                     </li>
                     <li>
-                      <MaterialIcon icon="check_box" size={20} /> Dedicated
+                      <MaterialIcon icon="check_box" /> Dedicated
                       Development
                     </li>
                     <li>
-                      <MaterialIcon icon="check_box" size={20} /> Managed
+                      <MaterialIcon icon="check_box" /> Managed
                       Monthly Plan
                     </li>
                     <li>
-                      <MaterialIcon icon="check_box" size={20} /> 160 hrs/month
-                      (8 hrs/weekday)
-                      <span className="d-block">Available: 2AM-10AM EST</span>
+                      <MaterialIcon icon="check_box" /> <span>160 hrs/month
+                      (8 hrs/weekday) Available: 2AM-10AM EST</span>
                     </li>
                     <li>
-                      <MaterialIcon icon="check_box" size={20} /> Emergency
+                      <MaterialIcon icon="check_box" /> Emergency
                       Support 18/5
                     </li>
                     <li>
-                      <MaterialIcon icon="check_box" size={20} /> Upgrade or
+                      <MaterialIcon icon="check_box" /> Upgrade or
                       Cancel Anytime
                     </li>
                   </ul>
+                  <Button as="input" type="button" value="Get Started" className='btn_started mx-auto' />
                 </div>
               </Col>
               <Col lg={4}>
@@ -132,25 +124,26 @@ function OurDev(props) {
                   </div>
                   <ul>
                     <li>
-                      <MaterialIcon icon="check_box" size={20} /> No Hidden Fees
+                      <MaterialIcon icon="check_box" /> No Hidden Fees
                     </li>
                     <li>
-                      <MaterialIcon icon="check_box" size={20} /> Fixed Price
+                      <MaterialIcon icon="check_box" /> Fixed Price
                       per Project
                     </li>
                     <li>
-                      <MaterialIcon icon="check_box" size={20} /> Changes Incur
+                      <MaterialIcon icon="check_box" /> Changes Incur
                       Additional Cost
                     </li>
                     <li>
-                      <MaterialIcon icon="check_box" size={20} /> Payment in
+                      <MaterialIcon icon="check_box" /> Payment in
                       Milestones
                     </li>
                     <li>
-                      <MaterialIcon icon="check_box" size={20} /> Upgrade
+                      <MaterialIcon icon="check_box" /> Upgrade
                       Anytime
                     </li>
                   </ul>
+                  <Button as="input" type="button" value="Get Started" className='btn_started' />
                 </div>
               </Col>
             </Row>
