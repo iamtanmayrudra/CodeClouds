@@ -1,3 +1,34 @@
+$rs: 'Roboto Slab', serif;
+$rub: 'Rubik', sans-serif;
+$white: #fff;
+$base_color: #0E92D4;
+
 .reviews_panle{
     padding: 60px 0 200px;
+    .banner_video{
+        position: relative;
+        margin-left: 50px;
+        overflow: hidden;
+        border-radius: 10px;
+        border: 6px solid #fff;
+        a{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            display: flex;
+            background: rgba(0, 0, 0, 0.219);
+            &:hover{
+                img{
+                    opacity: 0.8;
+                }
+            }
+        }
+        img:not(img.plays){
+            border: 0px;
+        }
+    }
 }
