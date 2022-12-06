@@ -19,6 +19,11 @@ $base_color: #0E92D4;
             margin: 15px 0;
             border: 0px;
             padding: 0;
+            transition: 0.3s;
+            &:hover{
+                box-shadow: 0 0 10px #ddd;
+                transition: 0.3s;
+            }
             .card-body{
                 padding: 0;
                 a{
