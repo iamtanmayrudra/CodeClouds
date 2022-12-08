@@ -18,7 +18,7 @@ function SampleNextArrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block" }}
+      style={{ ...style, display: "block", background: "red" }}
       onClick={onClick}
     />
   );
@@ -29,7 +29,7 @@ function SamplePrevArrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block" }}
+      style={{ ...style, display: "block", background: "green" }}
       onClick={onClick}
     />
   );
@@ -42,8 +42,8 @@ export default function ReviewCarousel() {
         speed: 500,
         slidesToShow: 2,
         slidesToScroll: 1,
-        nextArrow: <MaterialIcon onClick={SampleNextArrow} icon="arrow_forward_ios" size={18}/>,
-        prevArrow: <MaterialIcon onClick={SamplePrevArrow} icon="arrow_back_ios" size={18}/>
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />
     };
   return (
     <Slider {...settings}>

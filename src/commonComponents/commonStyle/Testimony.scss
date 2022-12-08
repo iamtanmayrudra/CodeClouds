@@ -41,7 +41,11 @@ $base_color: #0E92D4;
         margin: 0 20px;
       }
     .slick-list {
-    margin: 0 -20px;
+        margin: 0 -20px;
+        .slick-track{
+            display: flex;
+            align-items: stretch;
+        }
     }
     .each-review {
         padding: 30px;
