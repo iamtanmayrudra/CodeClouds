@@ -37,4 +37,15 @@ $base_color: #0E92D4;
             position: absolute;
         }
     }
+    .slick-slide > div {
+        margin: 0 20px;
+      }
+    .slick-list {
+    margin: 0 -20px;
+    }
+    .each-review {
+        padding: 30px;
+        border-radius: 10px;
+        background-color: #f7f9fe;
+    }
 }
