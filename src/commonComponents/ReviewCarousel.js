@@ -10,7 +10,7 @@ import ratingStar from "../assets/five-star.svg";
 import googleRound from "../assets/g-icon.webp";
 
 // Material Icon
-import MaterialIcon from 'react-google-material-icons';
+// import MaterialIcon from 'react-google-material-icons';
 
 
 function SampleNextArrow(props) {
