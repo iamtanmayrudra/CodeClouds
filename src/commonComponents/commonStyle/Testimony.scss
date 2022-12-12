@@ -47,9 +47,46 @@ $base_color: #0E92D4;
             align-items: stretch;
         }
     }
-    .each-review {
-        padding: 30px;
-        border-radius: 10px;
-        background-color: #f7f9fe;
+    .slider_top{
+        margin-top: 50px;
+        .each-review {
+            padding: 30px;
+            border-radius: 10px;
+            background-color: #f7f9fe;
+            .client_details{
+                .clientPattern{
+                    h2{
+                        font-size: 21px;
+                        color: #003a6a;
+                    }
+                }
+            }
+        }
+        .slick-dots{
+            bottom: -50px;
+            .slick-active{
+                button{
+                    &:before{
+                        content: "";
+                        width: 16px;
+                        height: 16px;
+                        background-color: #0e90d0;
+                        border:2px solid #0e90d0;
+                        border-radius: 50%;
+                    }
+                }
+            }
+            button{
+                &:before{
+                    content: "";
+                    width: 16px;
+                    height: 16px;
+                    background-color: $white;
+                    border:2px solid #bbc1d5;
+                    border-radius: 50%;
+                    opacity: 1;
+                }
+            }
+        }
     }
 }

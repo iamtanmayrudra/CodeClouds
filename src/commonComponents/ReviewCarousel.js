@@ -10,7 +10,7 @@ import ratingStar from "../assets/five-star.svg";
 import googleRound from "../assets/g-icon.webp";
 
 // Material Icon
-import MaterialIcon from 'react-google-material-icons';
+// import MaterialIcon from 'react-google-material-icons';
 
 
 function SampleNextArrow(props) {
@@ -18,7 +18,7 @@ function SampleNextArrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "red" }}
+      style={{ ...style, display: "block", background: "white", color: "#F7F9FE" }}
       onClick={onClick}
     />
   );
@@ -29,7 +29,7 @@ function SamplePrevArrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "green" }}
+      style={{ ...style, display: "block", background: "white", color: "#F7F9FE" }}
       onClick={onClick}
     />
   );
@@ -40,6 +40,7 @@ export default function ReviewCarousel() {
         dots: true,
         infinite: true,
         speed: 500,
+        autoplay: true,
         slidesToShow: 2,
         slidesToScroll: 1,
         nextArrow: <SampleNextArrow />,

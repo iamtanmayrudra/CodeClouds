@@ -51,7 +51,9 @@ import dan_pic from "../assets/clients/v-dan-foster.jpg";
             </Col>
 
             <Col lg={12}>
-                <ReviewCarousel />
+                <div className="slider_top">
+                  <ReviewCarousel />
+                </div>
             </Col>
           </Row>
         </Container>
