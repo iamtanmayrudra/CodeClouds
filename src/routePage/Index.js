@@ -8,6 +8,8 @@ import OurDev from "../commonComponents/OurDev";
 import Hire from '../commonComponents/Hire';
 import Tech from "../commonComponents/Tech";
 import Testimony from "../commonComponents/Testimony";
+import GetStarted from "../commonComponents/GetStarted";
+
 
 
 function Home(props) {
@@ -21,7 +23,8 @@ function Home(props) {
       <OurDev dev_title="Our Development Plans" />
       <Hire hire_title="Why Hire From CodeClouds" />
       <Tech tech_heading="Our Technology Expertise" />
-      <Testimony testimony_heading />
+      <Testimony testimony_heading ="See What Clients Are Saying" />
+      <GetStarted startedHeading ="Ready to Get Started?" para="Fill out the form below and we’ll provide you with an estimate for your project!"/>
     </>
   );
 }
