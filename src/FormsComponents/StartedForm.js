@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
 
+
 // Bootstrap Module
 import { Row, Col, Button, Form, Dropdown, DropdownButton, InputGroup } from "react-bootstrap";
 
@@ -78,7 +79,11 @@ function StartedForm(){
                             </Col>
                         </Row>
                     </Col>
-                    <Col>
+                    <Col lg={6}>
+                        <Form.Group className="mb-3">
+                            <Form.Label>Describe your project in detail:</Form.Label>
+                            <Form.Control as="textarea" placeholder="Leave a comment here" />
+                        </Form.Group>
                         <Button variant="primary" type="submit">
                             Submit
                         </Button>
