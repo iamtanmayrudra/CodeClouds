@@ -8,7 +8,7 @@ import { Row, Col, Button, Form, Dropdown, DropdownButton, InputGroup } from "re
 
 function StartedForm(){
 
-    const [countryNumber, setCountryNumber] = useState();
+    const [countryNumber, setCountryNumber] = useState("+91");
 
     return (
         <div className='bg-white p-5'>
@@ -35,7 +35,7 @@ function StartedForm(){
                     <Col lg={6}>
                         <Form.Label>Phone</Form.Label>
                         <InputGroup className="mb-3">
-                            <PhoneInput className="form-control d-flex" aria-label="Text input with dropdown button" placeholder={countryNumber} value={countryNumber} onChange={setCountryNumber}/>
+                            <PhoneInput defaultCountry="IN" className="form-control d-flex" maxlength="16" minlength="10" aria-label="Text input with dropdown button" placeholder={countryNumber} value={countryNumber} onChange={setCountryNumber}/>
                         </InputGroup>
                     </Col>
                     <hr/>
