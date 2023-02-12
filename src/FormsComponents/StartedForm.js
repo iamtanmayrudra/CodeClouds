@@ -2,9 +2,16 @@ import React, { useState } from "react";
 import "react-phone-number-input/style.css";
 import PhoneInput from "react-phone-number-input";
 
+// Import the library
+import Datetime from 'react-datetime';
+import "react-datetime/css/react-datetime.css";
+
+// Module CSS
+import "./Form.scss"
+
 
 // Bootstrap Module
-import { Row, Col, Button, Form, Dropdown, DropdownButton, InputGroup } from "react-bootstrap";
+import { Row, Col, Button, Form, InputGroup } from "react-bootstrap";
 
 function StartedForm(){
 
@@ -17,25 +24,25 @@ function StartedForm(){
                     <Col lg={6}>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label>Name</Form.Label>
-                            <Form.Control type="email" placeholder="Enter email" />
+                            <Form.Control type="email" placeholder="" />
                         </Form.Group>
                     </Col>
                     <Col lg={6}>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label>Business / Company (Optional)</Form.Label>
-                            <Form.Control type="email" placeholder="Enter email" />
+                            <Form.Control type="email" placeholder="" />
                         </Form.Group>
                     </Col>
                     <Col lg={6}>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label>Email</Form.Label>
-                            <Form.Control type="email" placeholder="Enter email" />
+                            <Form.Control type="email" placeholder="" />
                         </Form.Group>
                     </Col>
                     <Col lg={6}>
                         <Form.Label>Phone</Form.Label>
                         <InputGroup className="mb-3">
-                            <PhoneInput defaultCountry="IN" className="form-control d-flex" maxlength="16" minlength="10" aria-label="Text input with dropdown button" placeholder={countryNumber} value={countryNumber} onChange={setCountryNumber}/>
+                            <PhoneInput defaultCountry="IN" className="form-control d-flex phoneControl" maxlength="16" minlength="10" aria-label="Text input with dropdown button" placeholder={countryNumber} value={countryNumber} onChange={setCountryNumber}/>
                         </InputGroup>
                     </Col>
                     <hr/>
@@ -56,25 +63,19 @@ function StartedForm(){
                                 <Form.Group className="mb-3" controlId="formBasicEmail">
                                     <Form.Label>Length of Hire (optional)</Form.Label>
                                     <InputGroup className="mb-3">
-                                        <DropdownButton variant="outline-secondary" className='bg-white' title="+" id="input-group-dropdown-1" >
-                                            <Dropdown.Item href="#">Action</Dropdown.Item>
-                                            <Dropdown.Item href="#">Another action</Dropdown.Item>
-                                            <Dropdown.Item href="#">Something else here</Dropdown.Item>
-                                            <Dropdown.Item href="#">Separated link</Dropdown.Item>
-                                        </DropdownButton>
                                         <Form.Control aria-label="Text input with dropdown button" />
+                                        <Form.Select className="border-left" style= {{ border:'1px solid #ddd' }}>
+                                            <option>Week (1)</option>
+                                            <option>Month (1)</option>
+                                            <option>Year (1)</option>
+                                        </Form.Select>
                                     </InputGroup>
                                 </Form.Group>
                             </Col>
                             <Col lg={6}>
                                 <Form.Group className="mb-3" controlId="formBasicEmail">
                                     <Form.Label>Preferred Start Date</Form.Label>
-                                    <Form.Select aria-label="Default select example">
-                                        <option>Open this select menu</option>
-                                        <option value="1">One</option>
-                                        <option value="2">Two</option>
-                                        <option value="3">Three</option>
-                                    </Form.Select>
+                                    <Datetime dateFormat="MM/DD/YYYY" timeFormat={false}/>
                                 </Form.Group>
                             </Col>
                         </Row>
@@ -82,7 +83,7 @@ function StartedForm(){
                     <Col lg={6}>
                         <Form.Group className="mb-3">
                             <Form.Label>Describe your project in detail:</Form.Label>
-                            <Form.Control as="textarea" placeholder="Leave a comment here" />
+                            <Form.Control as="textarea" placeholder="" style={{ height: '120px' }} />
                         </Form.Group>
                         <Button variant="primary" type="submit">
                             Submit

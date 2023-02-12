@@ -1,0 +1,26 @@
+// Common Componets
+$white: #fff;
+$base_color:#0E92D4;
+$rs: 'Roboto Slab', serif;
+$dark: #000;
+
+
+form{
+    .phoneControl{
+        background-color: #f7f9fe !important;
+        border: 0px !important;
+        border-radius: 0px !important;
+    }
+    textarea,
+    select,
+    input{
+        background-color: #f7f9fe !important;
+        border: 0px !important;
+        border-radius: 0px !important;
+        &:focus{
+            outline: none;
+            box-shadow: none !important;
+        }
+    }
+}
+    

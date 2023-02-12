@@ -8,6 +8,9 @@
 @import url(./commonComponents/commonStyle/Hire.scss);
 @import url(./commonComponents/commonStyle/Tech.scss);
 
+// Form
+@import url(./FormsComponents/Form.scss);
+
 // Common Componets
 $rs: 'Roboto Slab', serif;
 $rub: 'Rubik', sans-serif;
@@ -27,6 +30,7 @@ p{
 img{
     max-width: 100%;
 }
+
 .block_heading{
     h1 {
         font-family: $rs;
