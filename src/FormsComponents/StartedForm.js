@@ -18,7 +18,7 @@ function StartedForm(){
     const [countryNumber, setCountryNumber] = useState("+91");
 
     return (
-        <div className='bg-white p-5'>
+        <div className='bg-white p-5' style={{ borderRadius: '10px' }}>
             <Form>
                 <Row>
                     <Col lg={6}>

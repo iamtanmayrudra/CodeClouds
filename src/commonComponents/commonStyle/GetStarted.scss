@@ -7,4 +7,13 @@ $base_color: #0E92D4;
 .getStartedPanel{
     background: $base_color;
     padding: 120px 0;
+    .block_heading{
+        margin-bottom: 50px;
+        h2{
+            margin-bottom: 15px;
+        }
+        p{
+            margin: 0;
+        }
+    }
 }
