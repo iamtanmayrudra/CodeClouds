@@ -1,7 +1,4 @@
-// Common Componets
-$white: #fff;
-$base_color:#0E92D4;
-$rub: 'Rubik', sans-serif;
+@import'./mixin.scss';
 
 .header{
     background: $base_color;

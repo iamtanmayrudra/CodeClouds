@@ -1,8 +1,4 @@
-// Common Componets
-$rs: 'Roboto Slab', serif;
-$rub: 'Rubik', sans-serif;
-$white: #fff;
-$base_color: #0E92D4;
+@import'./mixin.scss';
 
 .tech_body{
     background: #F7F9FE;

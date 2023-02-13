@@ -1,21 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
 
+// Common Variable
+@import './commonComponents/commonStyle/mixin.scss';
+
 // Import Css
-@import url(./commonComponents/commonStyle/Header.scss);
-@import url(./commonComponents/commonStyle/Banner.scss);
-@import url(./commonComponents/commonStyle/Services.scss);
-@import url(./commonComponents/commonStyle/Hire.scss);
-@import url(./commonComponents/commonStyle/Tech.scss);
+@import 
+        './commonComponents/commonStyle/Services.scss', 
+        './commonComponents/commonStyle/Hire.scss', 
+        './commonComponents/commonStyle/Tech.scss';
 
 // Form
-@import url(./FormsComponents/Form.scss);
-
-// Common Componets
-$rs: 'Roboto Slab', serif;
-$rub: 'Rubik', sans-serif;
-$white: #fff;
-$base_color: #0E92D4;
+@import './FormsComponents/Form.scss';
 
 
 :root{
@@ -32,18 +28,7 @@ img{
 }
 
 .block_heading{
-    h1 {
-        font-family: $rs;
-        color: #014e72;
-        font-size: 40px;
-        margin-bottom: 35px;
-        font-weight: 400;
-    }
-    h2 {
-        font-family: $rs;
-        color: #014e72;
-        font-size: 40px;
-        margin-bottom: 35px;
-        font-weight: 400;
+    h1, h2 {
+        @include headingProp(#014272);
     }
 }
