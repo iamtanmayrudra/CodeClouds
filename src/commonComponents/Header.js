@@ -19,7 +19,7 @@ export default function Header() {
             <Logo></Logo>
           </Col> */}
           <Col lg={12}>
-            <Navigation></Navigation>
+            <Navigation />
           </Col>
         </Row>
       </Container>
