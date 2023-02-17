@@ -104,16 +104,20 @@ function StartedForm(){
                   style={{ height: "120px" }}
                 />
               </Form.Group>
-              <Button variant="primary" type="submit">
-                Submit
-              </Button>
             </Col>
             <Col lg={12}>
-              <div className="formBtm_quote">
+              <div className="formBtm_quote text-center flex-column d-flex">
                 <p>
                   <MaterialIcon icon="info" size={18}/> This form will be
                   submitted upon receiving your project estimate
                 </p>
+                <label htmlFor="">
+                  <input type="checkbox" checked name="" id="" /> I have read and agree to the <a href="/">Privacy Policy</a>
+                </label>
+                <label htmlFor="">
+                  <input type="checkbox" checked name="" id="" /> I would like to receive information about CodeClouds’ products, services and newsletters.
+                </label>
+                <Button variant="outline-secondary">Get My Estimate</Button>
               </div>
             </Col>
           </Row>
