@@ -111,7 +111,7 @@ function StartedForm(){
             <Col lg={12}>
               <div className="formBtm_quote">
                 <p>
-                  <MaterialIcon icon="info" size={18} fill={{}} /> This form will be
+                  <MaterialIcon icon="info" size={18}/> This form will be
                   submitted upon receiving your project estimate
                 </p>
               </div>
