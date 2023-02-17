@@ -4,18 +4,18 @@ import React, {useState} from 'react'
 import { Container, Row, Col } from "react-bootstrap";
 
 // Css
-import './commonStyle/Banner.scss';
+import '../../commonStyle/Banner.scss';
 
 // Material Icon
 import MaterialIcon from 'react-google-material-icons';
 
 // Images import  
-import video_pic from "../assets/video-pic.jpg";
-import play_point from "../assets/ppc-play.svg";
-import subta from "../assets/certificate/subta-member.svg";
-import glassdoor from "../assets/certificate/glassdoor-rank.svg";
-import ambitionbox from "../assets/certificate/ambitionbox-award.svg";
-import clutch from "../assets/certificate/clutch.svg";
+import video_pic from "../../assets/video-pic.jpg";
+import play_point from "../../assets/ppc-play.svg";
+import subta from "../../assets/certificate/subta-member.svg";
+import glassdoor from "../../assets/certificate/glassdoor-rank.svg";
+import ambitionbox from "../../assets/certificate/ambitionbox-award.svg";
+import clutch from "../../assets/certificate/clutch.svg";
 
 
 function Banner(props) {

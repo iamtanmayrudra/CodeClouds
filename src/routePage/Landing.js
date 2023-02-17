@@ -1,19 +1,19 @@
 import React from 'react'
 
-import Header from '../commonComponents/Header';
-import Banner from '../commonComponents/Banner';
-import DevServices from "../commonComponents/DevServices";
-import OutSource from "../commonComponents/OutSource";
-import OurDev from "../commonComponents/OurDev";
-import Hire from '../commonComponents/Hire';
-import Tech from "../commonComponents/Tech";
-import Testimony from "../commonComponents/Testimony";
-import GetStarted from "../commonComponents/GetStarted";
+import Header from '../myComponents/headerComponents/Header';
+import Banner from '../myComponents/sectionComponents/Banner';
+import DevServices from "../myComponents/sectionComponents/DevServices";
+import OutSource from "../myComponents/sectionComponents/OutSource";
+import OurDev from "../myComponents/sectionComponents/OurDev";
+import Hire from '../myComponents/sectionComponents/Hire';
+import Tech from "../myComponents/sectionComponents/Tech";
+import Testimony from "../myComponents/sectionComponents/Testimony";
+import GetStarted from "../myComponents/sectionComponents/GetStarted";
 
 
 
 function Home(props) {
-
+  
   return (
     <>
       <Header />

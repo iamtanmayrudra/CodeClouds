@@ -1,13 +1,12 @@
 import React from "react";
 
-import Navigation from '../basicComponents/Navigation';
-// import Logo from "../basicComponents/Logo";
+import Navigation from './headerAssets/Navigation';
 
 // Bootstrap Module
 import { Container, Row, Col } from "react-bootstrap";
 
 // Css
-import './commonStyle/Header.scss';
+import './Header.scss';
 
 
 export default function Header() {
@@ -15,9 +14,6 @@ export default function Header() {
     <div className="header">
       <Container fluid>
         <Row className="align-items-center justify-content-between">
-          {/* <Col lg={4}>
-            <Logo></Logo>
-          </Col> */}
           <Col lg={12}>
             <Navigation />
           </Col>

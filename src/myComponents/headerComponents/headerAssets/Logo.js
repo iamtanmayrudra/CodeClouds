@@ -1,7 +1,7 @@
 import React from 'react'
 
 // Image Import
-import logo from "../assets/codeclouds-logo.svg";
+import logo from "../../../assets/codeclouds-logo.svg";
 
 
 function Logo() {

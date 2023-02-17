@@ -7,7 +7,7 @@ import MaterialIcon from 'react-google-material-icons';
 import "@fontsource/roboto-slab";
 
 
-import Logo from "../basicComponents/Logo";
+import Logo from "./Logo";
 
 
 function Navigation() {

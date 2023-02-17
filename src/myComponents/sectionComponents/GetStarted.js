@@ -6,7 +6,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./commonStyle/GetStarted.scss";
 
 // Import Form Module
-import StartedForm from "../FormsComponents/StartedForm"
+import StartedForm from "../formsComponents/StartedForm"
 
 
 

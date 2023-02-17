@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 
 // Css
-import "./commonStyle/Services.scss";
+import "../../commonStyle/Services.scss";
 
 // Material Icon
 import MaterialIcon from "react-google-material-icons";
