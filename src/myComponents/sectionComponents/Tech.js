@@ -4,37 +4,37 @@ import React from 'react'
 import { Container, Row, Col, Card } from "react-bootstrap";
 
 // Css
-import "./commonStyle/Tech.scss";
+import "../../commonStyle/Tech.scss";
 
 
 // Images SkillsSet
-import Angular from "../assets/expertise/ode-angular.svg";
-import CodeIgniter from "../assets/expertise/ode-codeigniter.svg";
-import jquery from "../assets/expertise/ode-jquery.svg";
-import Laravel from "../assets/expertise/ode-laravel.svg";
-import Nods from "../assets/expertise/ode-nodejs.svg";
-import Reac from "../assets/expertise/ode-react.svg";
-import Php from "../assets/expertise/ode-php-new.svg";
-import Sim from "../assets/expertise/ode-symphony.svg";
+import Angular from "../../assets/expertise/ode-angular.svg";
+import CodeIgniter from "../../assets/expertise/ode-codeigniter.svg";
+import jquery from "../../assets/expertise/ode-jquery.svg";
+import Laravel from "../../assets/expertise/ode-laravel.svg";
+import Nods from "../../assets/expertise/ode-nodejs.svg";
+import Reac from "../../assets/expertise/ode-react.svg";
+import Php from "../../assets/expertise/ode-php-new.svg";
+import Sim from "../../assets/expertise/ode-symphony.svg";
 
-import BigCom from "../assets/expertise/ode-bigcommerce.svg";
-import Drupals from "../assets/expertise/ode-drupal.svg";
-import Magento from "../assets/expertise/ode-magento.svg";
-import Shopify from "../assets/expertise/ode-shopify.svg";
-import UltraCart from "../assets/expertise/ode-ultracart.svg";
-import WooCommerce from "../assets/expertise/ode-woocommerce.svg";
-import Wordpress from "../assets/expertise/ode-wordpress.svg";
+import BigCom from "../../assets/expertise/ode-bigcommerce.svg";
+import Drupals from "../../assets/expertise/ode-drupal.svg";
+import Magento from "../../assets/expertise/ode-magento.svg";
+import Shopify from "../../assets/expertise/ode-shopify.svg";
+import UltraCart from "../../assets/expertise/ode-ultracart.svg";
+import WooCommerce from "../../assets/expertise/ode-woocommerce.svg";
+import Wordpress from "../../assets/expertise/ode-wordpress.svg";
 
-import Sticky from "../assets/expertise/ode-stickyio.svg";
-import Next from "../assets/expertise/ode-drupal.svg";
-import Konnective from "../assets/expertise/ode-magento.svg";
-import Respons from "../assets/expertise/ode-shopify.svg";
-import Sublytics from "../assets/expertise/ode-ultracart.svg";
+import Sticky from "../../assets/expertise/ode-stickyio.svg";
+import Next from "../../assets/expertise/ode-drupal.svg";
+import Konnective from "../../assets/expertise/ode-magento.svg";
+import Respons from "../../assets/expertise/ode-shopify.svg";
+import Sublytics from "../../assets/expertise/ode-ultracart.svg";
 
-import Android from "../assets/expertise/ode-android.svg";
-import Ionic from "../assets/expertise/ode-ionic.svg";
-import Ios from "../assets/expertise/ode-ios.svg";
-import Hybrid from "../assets/expertise/hybrid_app.svg";
+import Android from "../../assets/expertise/ode-android.svg";
+import Ionic from "../../assets/expertise/ode-ionic.svg";
+import Ios from "../../assets/expertise/ode-ios.svg";
+import Hybrid from "../../assets/expertise/hybrid_app.svg";
 
 
 function Tech(props) {

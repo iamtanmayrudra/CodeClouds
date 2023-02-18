@@ -9,16 +9,16 @@ import "../../commonStyle/Services.scss";
 // Material Icon
 import MaterialIcon from "react-google-material-icons";
 
-import spaceShip from "../assets/spaceship-new.webp";
+import spaceShip from "../../assets/spaceship-new.webp";
 // Services Icons
-import custWeb from "../assets/services/custom_web.svg";
-import ecomStore from "../assets/services/ecommerce_store.svg";
-import funnel from "../assets/services/funnel.svg";
-import mobileApp from "../assets/services/mobile_app.svg";
-import cDesign from "../assets/services/creative_design.svg";
-import crmCon from "../assets/services/crm-consulting.svg";
-import frontBack from "../assets/services/frontback_end.svg";
-import payGate from "../assets/services/payment-gateway.svg";
+import custWeb from "../../assets/services/custom_web.svg";
+import ecomStore from "../../assets/services/ecommerce_store.svg";
+import funnel from "../../assets/services/funnel.svg";
+import mobileApp from "../../assets/services/mobile_app.svg";
+import cDesign from "../../assets/services/creative_design.svg";
+import crmCon from "../../assets/services/crm-consulting.svg";
+import frontBack from "../../assets/services/frontback_end.svg";
+import payGate from "../../assets/services/payment-gateway.svg";
 
 
 

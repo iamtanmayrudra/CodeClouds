@@ -4,10 +4,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 // Css
-import "./commonStyle/outSource.scss";
+import "../../commonStyle/outSource.scss";
 
 // Import image
-import outDev from "../assets/to_the_moon.webp"
+import outDev from "../../assets/to_the_moon.webp"
 
 function OutSource(props) {
   return (

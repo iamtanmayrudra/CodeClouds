@@ -3,10 +3,10 @@ import React from 'react'
 // Bootstrap Module
 import { Container, Row, Col } from "react-bootstrap";
 // Css
-import "./commonStyle/GetStarted.scss";
+import "../../commonStyle/GetStarted.scss";
 
 // Import Form Module
-import StartedForm from "../formsComponents/StartedForm"
+import StartedForm from "../FormsComponents/StartedForm"
 
 
 

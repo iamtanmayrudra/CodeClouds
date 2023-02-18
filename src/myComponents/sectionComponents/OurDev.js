@@ -4,7 +4,7 @@ import React from 'react'
 import { Container, Row, Col, Button } from "react-bootstrap";
 
 // Css
-import "./commonStyle/OurDev.scss";
+import "../../commonStyle/OurDev.scss";
 
 // Material Icon
 import MaterialIcon from 'react-google-material-icons';

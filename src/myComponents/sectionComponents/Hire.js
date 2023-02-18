@@ -4,9 +4,9 @@ import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
 
 // Css
-import "./commonStyle/Hire.scss";
+import "../../commonStyle/Hire.scss";
 
-import cc_team from "../assets/cc_team.jpg"
+import cc_team from "../../assets/cc_team.jpg"
 
 
 function Hire(props) {

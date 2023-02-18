@@ -6,8 +6,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import ratingStar from "../assets/five-star.svg";
-import googleRound from "../assets/g-icon.webp";
+import ratingStar from "../../assets/five-star.svg";
+import googleRound from "../../assets/g-icon.webp";
 
 // Material Icon
 // import MaterialIcon from 'react-google-material-icons';

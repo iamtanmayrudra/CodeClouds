@@ -1,23 +1,23 @@
-import React from 'react'
+  import React from 'react'
 
 // Bootstrap Module
 import { Container, Row, Col } from "react-bootstrap";
 
-import ReviewCarousel from "../commonComponents/ReviewCarousel"
+import ReviewCarousel from "./ReviewCarousel"
 
 // Css
-import "./commonStyle/Testimony.scss";
+import "../../commonStyle/Testimony.scss";
 
 // Images import  
-import play_point from "../assets/ppc-play.svg";
-import jordan_pic from "../assets/clients/v-jordan-macdonald.jpg";
-import tim_pic from "../assets/clients/v-tim-hill.jpg";
-import dan_pic from "../assets/clients/v-dan-foster.jpg";
+import play_point from "../../assets/ppc-play.svg";
+import jordan_pic from "../../assets/clients/v-jordan-macdonald.jpg";
+import tim_pic from "../../assets/clients/v-tim-hill.jpg";
+import dan_pic from "../../assets/clients/v-dan-foster.jpg";
 
 
   function Testimony(props) {
     return (
-      <div className="reviews_panle">
+      <div className="reviews_panle"> 
         <Container>
           <Row>
             <Col lg={12}>
