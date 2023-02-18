@@ -1,7 +1,7 @@
 import './App.scss';
 
 // Common Layout
-import Index from "./routePage/Index";
+import Landing from "./routePage/Landing";
 
 // Bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -9,7 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <>
-      <Index />
+      <Landing />
     </>
   );
 }

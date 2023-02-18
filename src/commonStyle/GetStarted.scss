@@ -1,8 +1,9 @@
 @import'./mixin.scss';
 
 .getStartedPanel{
+    @include clipCureve;
     @include bColor;
-    padding: 120px 0;
+    padding: 160px 0 200px;
     .block_heading{
         margin-bottom: 50px;
         h2{
