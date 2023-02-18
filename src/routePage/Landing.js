@@ -1,6 +1,5 @@
 import React from 'react'
 
-import Header from '../myComponents/headerComponents/Header';
 import Banner from '../myComponents/sectionComponents/Banner';
 import DevServices from "../myComponents/sectionComponents/DevServices";
 import OutSource from "../myComponents/sectionComponents/OutSource";
@@ -16,7 +15,6 @@ function Home(props) {
   
   return (
     <>
-      <Header />
       <Banner title_banner="Get World-Class Web Development From India" />
       {/* <p>{process.env.REACT_APP_SECRET_KEY}</p> */}
       <DevServices services_heading="Top-Tier Development Services" />

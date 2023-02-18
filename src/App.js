@@ -1,7 +1,7 @@
 import './App.scss';
 
 // Common Layout
-import Landing from "./routePage/Landing";
+import Header from "./myComponents/headerComponents/Header";
 
 // Bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -9,7 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <>
-      <Landing />
+      <Header />
     </>
   );
 }
