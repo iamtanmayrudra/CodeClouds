@@ -27,7 +27,7 @@ function Navigation() {
     <div className="top_nav">
       <Router>
         <Navbar collapseOnSelect expand="lg" className='justify-content-between'>
-          <Navbar.Brand href="/">
+          <Navbar.Brand as={Link} to={"/Landing"}>
             <Logo></Logo>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
