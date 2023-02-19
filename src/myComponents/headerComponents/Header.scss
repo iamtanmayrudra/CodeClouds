@@ -1,12 +1,13 @@
 @import'../../commonStyle/mixin.scss';
 
-.header{
-    background: $base_color;
-    padding: 10px 15px;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    .top_nav{
+  
+.top_nav{
+    nav{
+        background: $base_color;
+        padding: 10px 15px;
+        position: sticky;
+        top: 0;
+        z-index: 1;
         .nav-item{
             .nav-link{
                 color: $white;
@@ -42,6 +43,7 @@
                     border: 0;
                 }
             }
-        }
+        } 
     }
+    
 }
