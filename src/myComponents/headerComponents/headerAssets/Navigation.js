@@ -6,7 +6,6 @@ import { Nav, Navbar } from "react-bootstrap";
 import MaterialIcon from 'react-google-material-icons';
 import "@fontsource/roboto-slab";
 
-
 import Logo from "./Logo";
 
 // React Router Dom
@@ -34,25 +33,25 @@ function Navigation() {
           <Navbar.Collapse id="responsive-navbar-nav" className='justify-content-end'>
             <Nav className="">
               <Nav.Item>
-                <Nav.Link as={Link} to={"/Landing"}>Home</Nav.Link>
+                <Nav.Link as={Link} to={"/"}>Home</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link as={Link} to={"/Company"}>Company</Nav.Link>
+                <Nav.Link as={Link} to={"/company"}>Company</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link as={Link} to={"/Portfolio"}>Portfolio</Nav.Link>
+                <Nav.Link as={Link} to={"/portfolio"}>Portfolio</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link as={Link} to={"/Products"}>Products</Nav.Link>
+                <Nav.Link as={Link} to={"/products"}>Products</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link as={Link} to={"/Services"}>Services</Nav.Link>
+                <Nav.Link as={Link} to={"/services"}>Services</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link as={Link} to={"/Blog"}>Blog</Nav.Link>
+                <Nav.Link as={Link} to={"/blog"}>Blog</Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link as={Link} to={"/Contact"}>Contact</Nav.Link>
+                <Nav.Link as={Link} to={"/contact"}>Contact</Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link>
