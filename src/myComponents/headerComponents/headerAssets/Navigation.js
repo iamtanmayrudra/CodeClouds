@@ -10,7 +10,7 @@ import "@fontsource/roboto-slab";
 import Logo from "./Logo";
 
 // React Router Dom
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom";
 
 // Route page Dclaration
 import Landing from "../../../routePage/Landing";
@@ -27,44 +27,12 @@ function Navigation() {
     <div className="top_nav">
       <Router>
         <Navbar collapseOnSelect expand="lg" className='justify-content-between'>
-          <Navbar.Brand as={Link} to={"/Landing"}>
+          <Navbar.Brand as={Link} to={"/"}>
             <Logo></Logo>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav" className='justify-content-end'>
             <Nav className="">
-              {/* <NavDropdown title="Products" id="nav-dropdown">
-                <NavDropdown.Item eventKey="1.1">Action</NavDropdown.Item>
-                <NavDropdown.Item eventKey="1.2">Another action</NavDropdown.Item>
-                <NavDropdown.Item eventKey="1.3">
-                  Something else here
-                </NavDropdown.Item>
-              </NavDropdown>
-              <NavDropdown title="Services" id="nav-dropdown">
-                <NavDropdown.Item eventKey="2.1">Action</NavDropdown.Item>
-                <NavDropdown.Item eventKey="2.2">Another action</NavDropdown.Item>
-                <NavDropdown.Item eventKey="2.3">
-                  Something else here
-                </NavDropdown.Item>
-              </NavDropdown>
-              <NavDropdown title="Company" id="nav-dropdown">
-                <NavDropdown.Item eventKey="3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item eventKey="3.2">Another action</NavDropdown.Item>
-                <NavDropdown.Item eventKey="3.3">
-                  Something else here
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item eventKey="4.4">Separated link</NavDropdown.Item>
-              </NavDropdown>
-              <NavDropdown title="Portfolio" id="nav-dropdown">
-                <NavDropdown.Item eventKey="4.1">Action</NavDropdown.Item>
-                <NavDropdown.Item eventKey="4.2">Another action</NavDropdown.Item>
-                <NavDropdown.Item eventKey="4.3">
-                  Something else here
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item eventKey="4.4">Separated link</NavDropdown.Item>
-              </NavDropdown> */}
               <Nav.Item>
                 <Nav.Link as={Link} to={"/Landing"}>Home</Nav.Link>
               </Nav.Item>
@@ -96,27 +64,14 @@ function Navigation() {
         </Navbar>
         <div>
           <Switch>
-            <Route path="/Landing">
-              <Landing />
-            </Route>
-            <Route path="/Company">
-              <Company />
-            </Route>
-            <Route path="/Portfolio">
-              <Portfolio />
-            </Route>
-            <Route path="/Products">
-              <Products />
-            </Route>
-            <Route path="/Services">
-              <Services />
-            </Route>
-            <Route path="/Blog">
-              <Blog />
-            </Route>
-            <Route path="/Contact">
-              <Contact />
-            </Route>
+            <Route exact path="/" component={Landing} />
+            <Route exact path="/Company" component={Company} />
+            <Route exact path="/Portfolio" component={Portfolio} />
+            <Route exact path="/Products" component={Products} />
+            <Route exact path="/Services" component={Services} />
+            <Route exact path="/Blog" component={Blog} />
+            <Route exact path="/Contact" component={Contact} />
+            <Redirect to="/" />
           </Switch>
         </div>
       </Router>
